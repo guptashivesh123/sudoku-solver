@@ -1,0 +1,9 @@
+#include<iostream>
+#include"/path/to/src/sudoku_generator.h"
+
+int main() {
+    sudoku::Grid grid = sudoku::generate_puzzle();
+    std::cout << grid << std::endl;
+
+    return 0;
+}
